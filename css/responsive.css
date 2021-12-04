@@ -1,0 +1,122 @@
+@media(max-width: 1400px){
+    
+}
+/***desktop width***/
+@media(max-width: 1200px){
+
+    .s10r2c1social a i{
+        font-size: 25px;
+    }
+
+}
+/***laptop width***/
+@media(max-width: 992px){
+
+    .sec1{
+        padding: 20px 80px;
+    }
+    .s1img img{
+        transform: translate( -50%, 125%);
+    }
+    .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .social{
+        transform: translate(10%, -340%);
+    }
+    .s10r2c1social a i{
+        padding-right: 25px;
+    }
+    .s10r2p1{
+        padding-right: 5px;
+    }
+    .s10r1{
+        margin-bottom: 40px;
+    }
+    .s10r3 p{
+        font-size: 15px;
+    }
+    .s10r3 .separetor{
+        margin-bottom: 15px;
+    }
+}
+/***tab width***/
+@media(max-width: 768px){
+    .sec2, .sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .s10r2c1{
+        flex-basis: 100%;
+    }
+    .sec10{
+        height: 930px;
+    }
+    .s10r1left{
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+    .s10r1right{
+        flex-basis: 100%;
+    }
+    .social i{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .social{
+        transform: translate(0%, -400%);
+        padding: 7px;
+    }
+    .s1img img{
+        transform: translate( -50%, 100%);
+        width: 80%;
+    }
+}
+/***fablate width***/
+@media(max-width: 576px){
+    .s1img img{
+        transform: translate( -50%, 125%);
+        width: 90%;
+    }
+    .s3box1{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .s4box1{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .s4box2{
+        flex-basis: 100%;
+    }
+    .s5box2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .s5box2 img{
+        width: 100%;
+    }
+    .s5box1{
+        flex-basis: 100%;
+    }
+    .s8box1, .s8box2, .s8box3{
+        flex-basis: 100%;
+    }
+    .social{
+        transform: translate(70%, -380%);
+        padding: 10px;
+    }
+    .s9box1{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .s10r2c2, .s10r2c3, .s10r2c4{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .sec10{
+        height: 1320px;
+    }
+}
+/***phone width***/
