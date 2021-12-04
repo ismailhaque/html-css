@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.sec1{
+    color: white;
+    background-image: url(../images/banner-bg.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 150px;
+    position: relative;
+}
+.navitme li{
+    list-style: none;
+}
+.navitme a{ 
+    color: white;
+    padding: 0px 15px;
+}
+.sec1 nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navitme ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbtn a{
+    background: linear-gradient(#FE8269, #ff6890);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.navbtn a:hover {
+    background: linear-gradient(#fd678f, #FE8269);
+}
+.content {
+    color: white;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, 50%);
+    left: 50%;
+    bottom: 70%;
+}
+.content h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.content h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.content p{
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+.content a{
+    background: linear-gradient(#FE8269, #ff6890);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    flex: 1;
+}
+.s1img {
+    text-align: center;
+}
+.s1img img{ 
+    width: 50%;
+    position: absolute;
+    transform: translate( -50%, 100%);
+    left: 50%;
+}
+/*****************sec1 end*******************/
+.sec2{
+    padding: 50px 200px;
+}
+.s2img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec2 img{
+    width: 15%;
+}
+/********************sec2 end******************/
+.sec3{
+    padding: 50px 200px;
+    text-align: center;
+}
+.s3devider{
+    height: 5px;
+    width: 15%;
+    background: rgb(255, 2, 2);
+    margin: auto;
+    margin-bottom: 10px;
+}
+.sec3 p{
+    color: gray;
+    font-size: 40px;
+}
+.sec3 p span{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+}
+.s3box{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s3box1{
+    padding: 20px;
+    flex-basis: 30%;
+    box-shadow: 1px 5px 15px 1px #888888;
+}
+.s3con h3{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+.s3con p{
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.s3con a{
+    color: gray;
+    font-size: 18px;
+    background-color: white;
+    font-weight: 400;
+}
+.s3img{
+    position: relative;
+    text-align: center;
+}
+.s3img .img2{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 52%;
+    bottom: -36px;
+}
+.s3img .img1{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 53%;
+    bottom: -40px;
+}
+.s3img h1 i{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    bottom: -35px;
+    color: white;
+    font-size: 30px;
+}
+.s3con a i{    
+    padding-left: 10px;
+    font-size: 15px;
+}
+/*************sec4 end****************/
+.sec4, .sec5, .sec6, .sec7{
+    padding: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec4, .sec6{
+    background-image: url(../images/about-shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
+.s4devider{
+    height: 5px;
+    width: 120px;
+    margin-bottom: 10px;
+    background-color: brown;
+}
+.s4box1, .s4box2{
+    flex-basis: 48%;
+}
+.s4box2 img{
+    width: 100%;
+}
+.s4box1 p span, .s5box1 p span{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.s4box1 .head, .s5box1 .head{  
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 10px;
+}
+.s4box1 p, .s5box1 p{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 30px;
+}
+.s4box1 a, .s5box1 a{
+    background: linear-gradient(#FE8269, #ff6890);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+/**************************sec4 end********************/
+.sec5{
+    background-image: url(../images/about-shape-2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.s5box1, .s5box2{
+    flex-basis: 48%;
+}
+.s5box2 img{
+    width: 80%;
+}
+/***************sec5 end*****************/
+/***************sec6 copy sec4************/
+.textholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.holder1, .holder2, .holder3{
+    flex-basis: 30%;
+    background-color: #19A6CE;
+    height: 100px;
+    width: 130px;
+    border-radius: 50px;
+    transform: rotate(300deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    transform: rotate(60deg);
+    text-align: center;
+}
+.text p{
+    padding-top: 20px;
+    color: white;
+}
+.holder2{
+    background-color: #FE806E;
+}
+.holder3{
+    background-color: #3623C4;
+}
+/******************sec7 end********************/
+.sec8{
+    padding: 50px 200px;
+}
+.s8devider{
+    height: 5px;
+    width: 120px;
+    background-color: brown;
+    margin:auto;
+}
+.sec8 p span{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.sec8 p{  
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.s8box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s8box1, .s8box2, .s8box3 {
+    text-align: center;
+    flex-basis: 30%;
+    position: relative;
+}
+.s8box1:hover, .s8box2:hover, .s8box3:hover{
+    box-shadow: 1px 5px 15px 1px #888888;
+}
+.s8box1 img, .s8box2 img, .s8box3 img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.s8box h3{
+    font-size: 20px;
+}
+.s8box p{
+    font-size: 15px;
+}
+.social{    
+    background-color: rgb(255 255 255 / 45%);
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    transform: translate(15%, -340%);
+}
+.social:hover{
+    background-color: rgb(255, 100, 100);
+}
+.social i{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+}
+/***************sec8 end******************/
+.sec9{
+    padding: 0px 200px;
+}
+.s9devider{
+    height: 5px;
+    width: 120px;
+    background-color: brown;
+}
+.sec9 p span{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.sec9 p{
+    font-size: 40px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.s9box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s9box1 {
+    text-align: left;
+    flex-basis: 30%;
+}
+.s9box1 img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.s9box1 p .span1{
+    font-size: 15px;
+    padding-right: 14%;
+}
+.s9box1 p .span2{
+    font-size: 15px;
+    text-align: right;
+}
+.s9box1 p{
+    font-size: 15px;
+    color: black;
+    padding-bottom: 20px;
+}
+.s9box1 a{
+    color: brown;
+    font-size: 18px;
+    background-color: white;
+    font-weight: 400;
+}
+.s9box1 a i{
+    padding-left: 10px;
+    font-size: 15px;
+}
+/*********sec9 end***********/
+.sec10{
+    background-image: url(../images/footer-bg.png);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 200px;
+}
+.s10r1{
+    background-color: white;
+    box-shadow: 0px 2px 5px 1px #888888;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+.s10r1right{
+    flex-basis: 48%;
+}
+.s10r1left{
+    flex-basis: 48%;
+}
+.s10r1left h1{
+    font-size: 30px;
+    color: black;
+}
+.s10r1left p{
+    font-size: 30px;
+    color: black;
+}
+.s10r1right form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s10r1right form .email{
+    border: 2px;
+    border-style: solid;
+    border-color: gray;
+    flex-basis: 70%;
+    padding: 15px;
+    border-right: 0px;
+    padding: 15px;
+}
+.s10r1right form .btn{
+    padding: 15px 15px;
+    color: white;
+    background-color: tomato;
+    flex-basis: 30%;
+    border: none;
+}
+.s10r2 ul li{
+    list-style: none;
+}
+.s10r2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s10r2c2, .s10r2c3, .s10r2c4{
+    flex-basis: 20%;
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+}
+.s10r2c1{
+    flex-basis: 30%;
+    color: white;
+    font-size: 17px;
+}
+.s10r2c1 img{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.s10r2 ul li a{
+      color: white;
+}
+.s10r2 h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.s10r2c1social a i{    
+    padding: 30px;
+    padding-left: 0px;
+    color: white;
+    font-size: 30px;
+}
+.s10r3 .separetor{
+    height: 1px;
+    background: white;
+    margin-bottom: 20px;
+}
+.s10r3 p{
+    font-size: 20px;
+    color: white;
+}
